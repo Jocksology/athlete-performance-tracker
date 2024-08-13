@@ -7,7 +7,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_pose = mp.solutions.pose
 
 # Set up video capture with OpenCV.
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture('data/sample_video.mp4')  # Ensure 'sample_video.mp4' is in the 'data' folder
 
 # Initialize variables for push-up counting.
 pushup_count = 0
